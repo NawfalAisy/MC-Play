@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Getstarted"
+    android:background="@color/lighttosca"
+    android:id="@+id/getstartedpage">
+
+    <ImageView
+        android:id="@+id/logomancity"
+        android:layout_width="370dp"
+        android:layout_height="280dp"
+        android:src="@drawable/logomancity"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/quetos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Become the pride in the battle and become the champion in every fight"
+        android:textSize="28dp"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:textAlignment="center"
+        android:layout_below="@+id/logomancity"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/Getstartedbutton"
+        android:layout_width="360dp"
+        android:layout_height="58dp"
+        android:hint="Get Started"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColorHint="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:background="@color/lightblue"
+        android:layout_below="@+id/quetos"/>
+
+</RelativeLayout>

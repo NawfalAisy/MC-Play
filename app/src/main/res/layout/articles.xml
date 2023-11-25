@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/lighttosca"
+    android:layout_marginTop="14dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="8dp"
+    android:id="@+id/cardviewarticles">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:orientation="horizontal">
+        
+        <ImageView
+            android:id="@+id/artimage"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/articlesimage"/>
+        <TextView
+            android:id="@+id/arttitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="Haaland confident Man City will beat Arsenal to league title"
+            android:textSize="24dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp"
+            android:layout_below="@+id/artimage" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

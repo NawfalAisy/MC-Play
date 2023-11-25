@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home_tab"
+        android:title="Home"
+        android:icon="@drawable/baseline_home_24"/>
+    <item
+        android:id="@+id/match_tab"
+        android:title="Match"
+        android:icon="@drawable/baseline_play_arrow_24"/>
+    <item
+        android:id="@+id/history_tab"
+        android:title="History"
+        android:icon="@drawable/baseline_history_24"/>
+
+</menu>
